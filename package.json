@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/PedroSilvaG3FT/nodeJs.git",
   "author": "Pedro <pedro.silva-dev@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
