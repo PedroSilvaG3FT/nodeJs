@@ -1,0 +1,8 @@
+{
+  "name": "nodeJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PedroSilvaG3FT/nodeJs.git",
+  "author": "Pedro <pedro.silva-dev@hotmail.com>",
+  "license": "MIT"
+}
