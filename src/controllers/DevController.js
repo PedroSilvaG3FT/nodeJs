@@ -17,7 +17,6 @@ module.exports = {
       bio,
       avatar
     });
-    console.log(response.data);
 
     return res.json(dev);
   }
