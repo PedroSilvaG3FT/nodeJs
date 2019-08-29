@@ -1,3 +1,5 @@
 module.exports = {
-  //Assim que inicia uma controller
+  store() {
+    //metodo para salvar informaçoes no banco de dados
+  }
 };
