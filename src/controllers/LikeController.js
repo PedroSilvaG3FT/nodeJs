@@ -16,6 +16,10 @@ module.exports = {
       return res.status(400).json({ error: "Dev not exists" });
     }
 
+    if (targetDev.likes.includes(loggedDev._id)) {
+      console.log("DEU MATCH !");
+    }
+
     loggedDev.likes.push(targetDev._id); //inclui no vetor o usuario que deu like
 
     await loggedDev.save(); // Salvar alteracoes feitas no usuario
