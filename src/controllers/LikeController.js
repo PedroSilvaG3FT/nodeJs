@@ -16,6 +16,8 @@ module.exports = {
       return res.status(400).json({ error: "Dev not exists" });
     }
 
+    loggedDev.likes.push(targetDev._id); //inclui no vetor o usuario que deu like
+
     return res.json({ ok: true });
   }
 };
