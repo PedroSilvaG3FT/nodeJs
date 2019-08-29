@@ -18,6 +18,8 @@ module.exports = {
 
     loggedDev.likes.push(targetDev._id); //inclui no vetor o usuario que deu like
 
-    return res.json({ ok: true });
+    await loggedDev.save(); // Salvar alteracoes feitas no usuario
+
+    return res.json(loggedDev);
   }
 };
